@@ -176,7 +176,7 @@ You may commit separate staged files at a time. I recommend the following: To ma
 
 Commit every staged file at once as a new version with a message:
 ```sh
-git commit -am "<message>"
+git commit -m "<message>"
 ```
 
 I also recommend you to keep a standard format to your messages. For example: `"<version>: #<issue-id>: <message>"`. The `#<id>` will automatically link your commit to the issue of that index.
@@ -215,6 +215,13 @@ If you get a merge error, you have to help two version trees to merge.
 1. Resolve any merge errors.
 2. Stage and commit your merge fix.
 3. Try to push again.
+
+### 5. Admire your version tree.
+
+Look at your current version branch:
+```sh
+git log --oneline
+```
 
 ## Git Methodologies
 
