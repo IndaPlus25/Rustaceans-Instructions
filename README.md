@@ -2,7 +2,7 @@
 
 This repository is for distribution of +group assignments for complementary use in the _Introduction to Computer Science_ (INDA) courses.
 
-Read complementary files GITGUIDE.md, RULES.md, and STYLEGUIDE.md.
+Read complementary files ASSESSMENT.md, GITGUIDE.md, RULES.md, and STYLEGUIDE.md.
 
 ## Use of IndaPlus25
 
