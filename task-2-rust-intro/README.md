@@ -20,6 +20,8 @@ Your first assignment is turned in by uploading it to a repository named `task-<
 `git clone git@github.com:IndaPlus24/task-<index>-<KTH_ID>.git`
 1) Create one Rust crate (term for application or library) per subassignment. 
 
+See guides and manuals for Rust: https://www.rust-lang.org/learn.
+
 #### How to create a Rust application (_binary_) crate
 
 The _binary crate_ is the Rust term for an application root directory.
