@@ -15,7 +15,7 @@ _Modified by_: Isak Larsson
 
 Your first assignment is turned in by uploading it to a repository named `task-<index>-<KTH_ID>` (ex. `task-2-violaso`) under the `IndaPlus25` organisation. Be careful to get the spelling right.
 
-1) Create a repository named `task-<index>-<KTH_ID>`. (ex. `bwidman-rust-intro`)
+1) Create a repository named `task-<index>-<KTH_ID>`. (ex. `task-2-violaso`)
 2) Clone your newly created repository.
 `git clone git@github.com:IndaPlus24/task-<index>-<KTH_ID>.git`
 1) Create one Rust crate (term for application or library) per subassignment. 
