@@ -34,9 +34,9 @@ See guides and manuals for Rust: https://www.rust-lang.org/learn.
 The _binary crate_ is the Rust term for an application root directory.
 
 1) Navigate in your terminal/shell/CMD into your inda workspace.
-2) Initialise your Rust crate.
+2) Initialise your Rust crate. My suggestion is to name your project root after the Kattis problem.
 ```sh
-cargo init task-2-<KTH_ID>
+cargo init <project-name>
 ```
 3) Navigate into your project root.
 4) Build and run your application.
