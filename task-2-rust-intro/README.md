@@ -13,12 +13,19 @@ _Modified by_: Isak Larsson
 
 ### Prepare for your assigment
 
-Your first assignment is turned in by uploading it to a repository named `task-<index>-<KTH_ID>` (ex. `task-2-violaso`) under the `IndaPlus25` organisation. Be careful to get the spelling right.
+Your first assignment is turned in by uploading it to a repository named `task-2-<KTH_ID>` (ex. `task-2-violaso`) under the `IndaPlus25` organisation. Be careful to get the spelling right.
 
-1) Create a repository named `task-<index>-<KTH_ID>`. (ex. `task-2-violaso`)
-2) Clone your newly created repository.
-`git clone git@github.com:IndaPlus24/task-<index>-<KTH_ID>.git`
-1) Create one Rust crate (term for application or library) per subassignment. 
+1) Create a repository named `task-2-<KTH_ID>`.
+2) Clone your regular assignment repository.
+```sh
+git clone git@gits-15.sys.kth.se:inda-25/<KTH_ID>-task-2.git
+```
+3) Add the upstream for `task-2-<KTH_ID>` to your local repository.
+```sh
+git remote add plus git@github.com:IndaPlus25/task-2-<KTH_ID>.git
+```
+4) The repository is your workspace. You may organise it however you want. I recommend to seperate the regular assignment from the plus assignment in two seperate directories. 
+5) Create one Rust crate (term for application or library) per subassignment (per Kattis solution).
 
 See guides and manuals for Rust: https://www.rust-lang.org/learn.
 
