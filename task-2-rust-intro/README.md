@@ -9,6 +9,8 @@ _Modified by_: Isak Larsson
 
 1) Install [Rustup](https://rustup.rs/).
 2) _If you're running Windows_, install [Visual Studio C++ Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/).
+   $\alpha$. _For Linux_: `sudo apt-get install build-essential`
+   $\beta$. _For Mac_: `xcode-select --install`
 3)  _If you're developing in Visual Studio Code_, install the *superior* [Rust extension](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
 
 ### Prepare for your assigment
