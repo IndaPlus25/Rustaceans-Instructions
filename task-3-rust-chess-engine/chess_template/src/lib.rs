@@ -1,3 +1,15 @@
+/***
+ * Example template for a chess engine.
+ * 
+ * Course litterature.
+ * Course: DD1337 Programming
+ * KTH Royal Institute of Technology
+ * 
+ * Author: Viola Söderlund <violaso@kth.se>
+ * License: MIT
+ * Latest change: 2025-09-12
+ */
+
 use std::fmt;
 
 #[derive(Copy, Clone, Debug, PartialEq)]
@@ -21,6 +33,10 @@ pub struct Game {
 impl Game {
     /// Initialises a new board with pieces.
     pub fn new() -> Game {
+
+        let v = Vec::<usize>::with_capacity(200);
+
+
         Game {
             /* initialise board, set active colour to white, ... */
             state: GameState::InProgress,
