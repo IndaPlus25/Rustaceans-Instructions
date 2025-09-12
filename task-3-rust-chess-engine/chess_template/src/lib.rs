@@ -33,10 +33,6 @@ pub struct Game {
 impl Game {
     /// Initialises a new board with pieces.
     pub fn new() -> Game {
-
-        let v = Vec::<usize>::with_capacity(200);
-
-
         Game {
             /* initialise board, set active colour to white, ... */
             state: GameState::InProgress,
