@@ -50,7 +50,7 @@ You may implement it however you want, but it is recommended that you create a s
 | `pub fn get_game_state(&self) -> GameState`                                   | Get the current game state.                                                                                                                                                                   |
 | `pub fn get_possible_moves(&self, position: &Position) -> Optional<Vec<Position>>` | If a piece is standing on the given tile, return all possible new positions of that piece. Don't forget to the rules for check. _(optional)_ Don't forget to include en passent and castling. |
 
-Positions are given as strings with the format `<file><rank>`. Ex. B4. Decide a suitable structure/enum/type `Position`.
+Positions are given with the format `<file><rank>`. Ex. B4. Decide a suitable structure/enum/type `Position`.
 
 Your program should also export an enumerator `GameState` with the values:
 - `InProgress`, 
