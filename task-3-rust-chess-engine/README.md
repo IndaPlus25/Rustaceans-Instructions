@@ -48,7 +48,7 @@ You may implement it however you want, but it is recommended that you create a s
 | `pub fn make_move(&mut self, from: &Position, to: &Position) -> Option<GameState>`  | If the current game state is `InProgress` and the move is legal, move a piece and return the resulting state of the game.                                                                     |
 | `pub fn set_promotion(&mut self, piece: &Position) -> ()`                        | Set the piece type that a peasant becames following a promotion.                                                                                                                              |
 | `pub fn get_game_state(&self) -> GameState`                                   | Get the current game state.                                                                                                                                                                   |
-| `pub fn get_possible_moves(&self, position: &Position) -> Optional<Vec<Position>>` | If a piece is standing on the given tile, return all possible new positions of that piece. Don't forget to the rules for check. _(optional)_ Don't forget to include en passent and castling. |
+| `pub fn get_possible_moves(&self, position: &Position) -> Option<Vec<Position>>` | If a piece is standing on the given tile, return all possible new positions of that piece. Don't forget to the rules for check. _(optional)_ Don't forget to include en passent and castling. |
 
 Positions are given with the format `<rank><file>`. Ex. B4. Decide a suitable structure/enum/type `Position`.
 
