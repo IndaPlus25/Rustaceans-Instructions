@@ -223,6 +223,11 @@ Look at your current version branch:
 git log --oneline
 ```
 
+View a detailed log of your current version branch:
+```sh
+git log --raw
+```
+
 ## Git Methodologies
 
 A git methodology is a framework for how you organise your versions in branches. Branching becomes necessary when multiple teammates are working on the same code base. They allow for different people to work on seperate features without disrupting each others code.
