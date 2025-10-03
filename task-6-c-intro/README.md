@@ -1,4 +1,4 @@
-# DD1337 Week 7 | C Introduction
+# DD1337 Week 6 | C Introduction
 
 ## Getting started with C
 

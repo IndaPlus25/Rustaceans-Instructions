@@ -25,8 +25,8 @@ task-3   Rust chess engine.
 task-4   Rust chess engine, continuance.
 task-5   Rust chess enging, issue week.
 task-6   C introduction.
-task-7   Zig introduction.
-task-8   Assembly introduction.
-task-9   Architecture design, group assignment.
+task-7   Assembly introduction.
+task-8   Architecture design, group assignment.
+task-9   Zig introduction.
 task-10  Prolog introduction.
 ```
