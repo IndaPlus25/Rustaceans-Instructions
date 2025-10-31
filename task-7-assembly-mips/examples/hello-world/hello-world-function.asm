@@ -46,8 +46,8 @@ HW:     .asciiz "Hello World\n"     # define label HW as a constant string "Hell
 ##
 hello_world:                        # function main starts here
     # manage saved regitries
-    move    $s1, $ra                # save return address
     PUSH($s1)                       # save parent routine's saved value to stack
+    move    $s1, $ra                # save return address
 
     # call print_hello_world subroutine
     jal     print_hello_world	    # jump to print_hello_world and save position to $ra
