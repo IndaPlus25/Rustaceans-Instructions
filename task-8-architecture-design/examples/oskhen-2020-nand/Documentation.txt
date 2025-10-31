@@ -1,0 +1,58 @@
+Registers:
+#0: PC - Program Counter
+#1: RN - NAND Output
+#2 - #7: r0 - r5: General use registers
+
+8 bit instructionset:
+
+2 bit - OPcode:
+00 - NAND - RN = A NAND B
+01 - sys - See sys
+10 - Loop (START/END) - START/END identified by last 3 bits, if all are 0 then END otherwise START
+11 - BIT - read/writes specific bit in r4 given by 5bit imm and reads/writes to r5.
+
+Sys (identified by OP = 01):
+2 bit OP (identifier)
+2 bit ID (Special identifier):
+00 - STACK
+01 - READ
+10 - WRITE
+11 - TBD
+
+
+STACK: 
+1 bit PUSH or POP (0 = PUSH, 1 = POP)
+3 bit rs (input 1)
+
+READ:
+3 bit rs
+
+WRITE:
+3 bit rs
+
+
+NAND:
+2 bit OP (identifier)
+3 bit rs (input 1)
+3 bit rt (input 2)
+
+START: - Puts rs and rt into r0 and r1 of subprocess
+2 bit OP (identifier)
+3 bit rs (input 1)
+3 bit rt (input 2)
+
+END: - Puts rn into rs of parent process.
+2 bit OP (identifier)
+3 bit rs (input 1)
+3 bit 0-padding
+
+BIT: 
+2 bit OP (identifier)
+1 bit ID (0 = read, 1 = write)
+5 bit Index (IMM 0-31)
+
+bit READ:
+r5 = r4[imm]
+
+bit WRITE:
+r4[imm] = r5

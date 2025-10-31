@@ -1,0 +1,75 @@
+ii Setup ii
+
+IIIIlI II ii Read input to reg0 ii
+
+lIlI II ll ii Move reg0 into reg3 ii
+
+IIl IIIIl ii load 1 into reg0 ii
+
+
+
+ii Base case check 0 ii
+
+IIIIllII ii Skip next on equal (input == 0) ii
+
+lll IIIIl ii Jump 1 ii
+
+lIlI II ll ii Move reg0 into reg3 ii
+
+
+
+ii Base case check 1 ii
+
+lIlI II lI ii Move reg0 into reg2 ii
+
+IIIIllII ii Skip next on equal (input == 1) ii
+
+lll IIIlI ii Jump 2 ii
+
+lIlI lI Il ii Move reg2 into reg1 ii
+
+lll Illll ii Jump to end of program (15) ii
+
+
+
+ii Special first ii
+
+lIlI II lI ii Move reg0 into reg2 ii
+
+lIII Il ll ii Add reg3 to reg1 ii
+
+llII ll lI ii Sub reg3 by reg2 ii
+
+IIl IIIII ii load 0 into reg0 ii
+
+lIlI II lI ii Move reg0 into reg2 ii
+
+
+
+ii Loop ii
+
+lIII II Il ii Add reg1 to reg0 ii
+
+IIIIIl lI ii Add1 to reg2 ii
+
+Ill lIIll ii Branch on not equal -3 ii
+
+lIlI II Il ii Move reg0 into reg1 ii
+
+IIl IIIIl ii load 1 into reg0 ii
+
+llII ll II ii Sub reg3 by reg0 ii
+
+IIl IIIII ii load 0 into reg0 ii
+
+lIlI II lI ii Move reg0 into reg2 ii
+
+IIIIllII ii Skip next on equal ii
+
+lll llIlI ii Jump -10 ii
+
+
+
+ii Exit ii
+
+IIIIII Il ii Write reg1 ii

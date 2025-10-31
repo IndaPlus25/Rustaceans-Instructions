@@ -1,0 +1,37 @@
+Registers:
+#0: PC - Program Counter
+#1: RN - NAND Output
+#2 - #7: r0 - r5: General use registers
+
+8 bit instructionset:
+
+2 bit - OPcode:
+00 - NAND - RN = A NAND B
+01 - sys - See sys
+10 - START - Identifies start of instruction chain - sets rt and rs to r0 and r1.
+11 - END - Identifies end of instruction chain - sets rs to final output
+
+S-Type (identified by OP = 01):
+2 bit OP (identifier)
+2 bit ID (Special identifier):
+00 - STACK
+01 - READ
+10 - WRITE
+11 - TBD
+
+
+STACK: 
+1 bit PUSH or POP (0 = PUSH, 1 = POP)
+3 bit rs (input 1)
+
+READ:
+3 bit rs
+
+WRITE:
+3 bit rs
+
+
+I-type:
+2 bit OP (identifier)
+3 bit rs (input 1)
+3 bit rt (input 2)

@@ -1,0 +1,1 @@
+C:\Users\viola\Documents\INDA_2020\tasks\plus-assembly\isaklar\isaklar-assembly\src\rust-compiler\target\debug\rust-compiler.exe: C:\Users\viola\Documents\INDA_2020\tasks\plus-assembly\isaklar\isaklar-assembly\src\rust-compiler\src\main.rs
