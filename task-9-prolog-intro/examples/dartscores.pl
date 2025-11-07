@@ -1,6 +1,6 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% DD1362 Programmering Paradigm | Lab X1
-% - Calculating Dart Scores
+% DD1337 Programmering | Task 9
+% - Calculating Dart Scores Example
 % 
 % See: https://open.kattis.com/problems/calculatingdartscores
 % Author: Viola Söderlund <violaso@kth.se>, Tobias Hansson <tohans@kth.se>
