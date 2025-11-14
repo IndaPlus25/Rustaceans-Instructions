@@ -1,4 +1,4 @@
-# DD1338 Week 10
+# DD1338 Week 9 | Prolog
 
 You thought Haskell was weird? Well get ready to do some *real* code-wizardry. This week we are going to be learning Prolog by implementing a part of everyone's favourite boardgame: [Go](https://en.wikipedia.org/wiki/Go_(game))
 
