@@ -1,4 +1,4 @@
-# DD1338 Week 10 | Wordle Project
+# DD1337 Week 10 | Wordle Project
 
 To wrap up DD1337, you will embark on a fun mini project. See the intended learning outcomes as defined in the [course syllabus](https://www.kth.se/student/kurser/kurs/DD1337?l=en): 
 
