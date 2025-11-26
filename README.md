@@ -10,6 +10,28 @@ Feel welcome to push your work to this organisation, or not; to comment on your 
 
 __You are not required to push your work here.__ However, it is encouraged.
 
+## DD1338 Algorithms and Data Structures
+
+See the [KTH course syllabus](https://www.kth.se/student/kurser/kurs/DD1338).
+
+This course focuses not on programming skills, but on the ability to analyse, choose, and implement different algorithms and data structures to solve problems.
+
+_Note_: As decribed in the course syllabus, the primary programming language of this course is Java. However, as a complementary option, you have the choise to instead attempt a series of more challenging exercises.
+
+The following schedule may be changed:
+```
+task-11  Sorting algorithms.
+task-12  Nature of Code project.
+task-13  Search algorithms.
+task-14  Raytracer project.
+task-15  Data structure problems.
+task-16  Hashmap database project.
+task-17  Dynamic programming.
+task-18  Concordance project.
+task-19  Quicksort project.
+task-20  Report on quicksort project.
+```
+
 ## DD1337 Programmering
 
 See the [KTH course syllabus](https://www.kth.se/student/kurser/kurs/DD1337).
@@ -27,6 +49,6 @@ task-5   Rust chess enging, issue week.
 task-6   C introduction.
 task-7   Assembly introduction.
 task-8   Architecture design, group assignment.
-task-9   Zig introduction.
-task-10  Prolog introduction.
+task-9   Prolog introduction.
+task-10  Mini project.
 ```
