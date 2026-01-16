@@ -22,8 +22,8 @@ The following schedule may be changed:
 ```
 task-11  Sorting algorithms.
 task-12  Nature of Code project.
-task-13  Search algorithms.
-task-14  Raytracer project.
+task-13  Raytracer project.
+task-14  Side effects and semaphores.
 task-15  Data structure problems.
 task-16  Hashmap database project.
 task-17  Dynamic programming.
