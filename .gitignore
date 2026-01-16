@@ -3,3 +3,6 @@
 
 # Rust dependency lock files. 
 /*/*/Cargo.lock
+
+# Demo binaries.
+/*/demo
